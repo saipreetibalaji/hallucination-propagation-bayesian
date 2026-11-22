@@ -2,7 +2,7 @@
 
 > A research project investigating how incorrect, correct, and uncertain responses evolve across multi-step reasoning chains using first-order Markov chains and Bayesian transition modelling.
 
-## Overview
+## Overview 
 
 Large language models (LLMs) often solve multi-hop questions through a sequence of intermediate reasoning steps. An incorrect intermediate answer may influence later responses, while uncertainty or abstention may also emerge as a chain progresses.
 
