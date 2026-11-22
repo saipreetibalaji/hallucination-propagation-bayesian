@@ -166,37 +166,6 @@ The key interpretation is that the self-conditioned dependent condition has a hi
 
 Validation and test performance are not uniformly better for one condition. The results should be interpreted as predictive evaluation on the particular internal partitions, not as a universal ranking of the conditions.
 
-## Repository structure
-
-A recommended repository layout is:
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── DATASET_AND_ETHICS.md
-├── 01_model_generation/
-│   ├── run_generation.py
-│   ├── full_run.log
-│   └── config.json                 # if available
-├── 02_data/
-│   └── generations.jsonl           # include only if dataset sharing is permitted
-├── 03_bayesian_analysis/
-│   └── FINAL_Revised_Sequential_Bayesian_Hallucination_Analysis.ipynb
-├── 04_results/
-│   ├── key_bayesian_quantities.csv
-│   ├── train_only_posterior_transitions.csv
-│   ├── validation_metrics.csv
-│   ├── heldout_test_metrics.csv
-│   └── figures/
-└── docs/
-    ├── Complete_Project_Documentation.pdf
-    └── Complete_Project_Documentation.docx
-```
-
-The exact folder names can be adjusted to match the files you actually upload. Do not commit temporary checkpoints, model weights, virtual environments, API keys, or unrelated intermediate outputs.
-
 ## Setup
 
 ### 1. Clone the repository
