@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+token
+tokens/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.temp
+
+# Model weights, caches and checkpoints
+.cache/
+.cache/huggingface/
+huggingface/
+transformers_cache/
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Large generated/intermediate artifacts (uncomment if not intended for Git)
+# generations.jsonl
+# *.zip
+# corrected_results/
+
+# Notebook runtime outputs can be cleared before committing if they contain
+# large embedded data or machine-specific paths. Do not ignore notebooks.
