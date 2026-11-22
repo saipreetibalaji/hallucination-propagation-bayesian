@@ -262,10 +262,8 @@ If you use this repository, cite the project as:
 
 > *Sequential Bayesian Modelling of Hallucination Propagation and Uncertainty in Large Language Models.* Student research project, 2026.
 
-Also acknowledge the MuSiQue dataset and Qwen2.5-3B-Instruct model. Follow their respective dataset and model licenses/terms when redistributing data or outputs.
-
 ## Author
 
-**<Sai Preeti>**  
+Sai Preeti  
 Student Research Project · 2026
 
