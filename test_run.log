@@ -1,0 +1,12 @@
+device: mps
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+chains: 3
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1121 18:46:06.787000 12639 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [07:02<07:02, 422.15s/it]Fetching 2 files: 100%|██████████| 2/2 [07:53<00:00, 203.97s/it]Fetching 2 files: 100%|██████████| 2/2 [07:53<00:00, 236.70s/it]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:01<12:45,  1.77s/it]Loading weights:  39%|███▉      | 171/434 [00:01<00:02, 123.79it/s]Loading weights:  56%|█████▌    | 243/434 [00:02<00:01, 114.39it/s]Loading weights:  66%|██████▌   | 287/434 [00:03<00:01, 92.34it/s] Loading weights:  73%|███████▎  | 316/434 [00:03<00:01, 78.64it/s]Loading weights:  77%|███████▋  | 336/434 [00:04<00:01, 79.70it/s]Loading weights:  81%|████████▏ | 353/434 [00:04<00:01, 69.91it/s]Loading weights:  84%|████████▍ | 366/434 [00:04<00:00, 71.20it/s]Loading weights:  87%|████████▋ | 377/434 [00:05<00:00, 66.33it/s]Loading weights:  89%|████████▉ | 387/434 [00:05<00:00, 66.79it/s]Loading weights:  91%|█████████ | 396/434 [00:05<00:00, 68.46it/s]Loading weights:  93%|█████████▎| 405/434 [00:05<00:00, 58.93it/s]Loading weights:  95%|█████████▍| 412/434 [00:05<00:00, 39.13it/s]Loading weights: 100%|██████████| 434/434 [00:05<00:00, 72.90it/s]
+already done: 0
+chain 1/3  elapsed 0.1 min  avg 3.8s per chain-run
+chain 2/3  elapsed 0.2 min  avg 3.0s per chain-run
+chain 3/3  elapsed 0.3 min  avg 3.1s per chain-run
+finished
